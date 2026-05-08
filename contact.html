@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Civic Guild</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="logo.png">
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <a href="index.html" class="brand">
+        <img src="logo.png" alt="Civic Guild logo">
+        <span>Civic Guild</span>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="get-involved.html">Get Involved</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h1>Contact Us</h1>
+      <p>Press inquiries, partnership requests, security disclosures, and general questions all welcome.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container two-col">
+      <div>
+        <h2>Reach Out</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p><strong>General:</strong> hello@civicguild.example</p>
+        <p><strong>Press:</strong> press@civicguild.example</p>
+        <p><strong>Security:</strong> security@civicguild.example</p>
+        <p><strong>Mail:</strong><br>Civic Guild<br>P.O. Box 1776<br>Washington, DC 20001</p>
+      </div>
+      <div class="photo-block large">Photo</div>
+    </div>
+  </section>
+
+  <section class="bg-light">
+    <div class="container">
+      <h2 class="section-title">Send a Message</h2>
+      <p class="section-subtitle">We try to respond within five business days.</p>
+      <form onsubmit="event.preventDefault(); alert('Thanks for reaching out — this is a demo form.');">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject">
+
+        <label for="topic">Topic</label>
+        <select id="topic" name="topic">
+          <option>General inquiry</option>
+          <option>Press</option>
+          <option>Partnership</option>
+          <option>Security disclosure</option>
+          <option>Other</option>
+        </select>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Lorem ipsum dolor sit amet..." required></textarea>
+
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">
+            <img src="logo.png" alt="Civic Guild logo">
+            <strong>Civic Guild</strong>
+          </div>
+          <p style="opacity: 0.85;">A nonpartisan coalition building open technology to defend democratic institutions in the United States.</p>
+        </div>
+        <div>
+          <h4>Site</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="get-involved.html">Get Involved</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Connect</h4>
+          <ul>
+            <li><a href="#">Newsletter</a></li>
+            <li><a href="#">GitHub</a></li>
+            <li><a href="#">Mastodon</a></li>
+            <li><a href="#">Press Inquiries</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; 2026 Civic Guild. Lorem ipsum dolor sit amet.
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

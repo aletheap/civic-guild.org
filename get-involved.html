@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Get Involved — Civic Guild</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="logo.png">
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <a href="index.html" class="brand">
+        <img src="logo.png" alt="Civic Guild logo">
+        <span>Civic Guild</span>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="get-involved.html" class="active">Get Involved</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h1>Join the Guild</h1>
+      <p>There are many ways to contribute — whether you write code, knock on doors, draft policy, or simply care about the future of self-government.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <h2 class="section-title">Ways to Contribute</h2>
+      <p class="section-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <div class="grid">
+        <div class="card">
+          <div class="photo-block">Photo</div>
+          <div class="card-body">
+            <h3>Volunteer</h3>
+            <p>Sign up to help with elections, training, research, or local outreach. Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="photo-block">Photo</div>
+          <div class="card-body">
+            <h3>Contribute Code</h3>
+            <p>Pick up an open issue or propose a new project. Sed do eiusmod tempor incididunt ut labore et dolore.</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="photo-block">Photo</div>
+          <div class="card-body">
+            <h3>Donate</h3>
+            <p>Fund tools, training, and field operations. Magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-light">
+    <div class="container">
+      <h2 class="section-title">Sign Up</h2>
+      <p class="section-subtitle">Tell us a little about how you'd like to help and we'll be in touch.</p>
+      <form onsubmit="event.preventDefault(); alert('Thanks for signing up — this is a demo form.');">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="zip">ZIP Code</label>
+        <input type="text" id="zip" name="zip" pattern="[0-9]{5}" maxlength="5">
+
+        <label for="role">How do you want to help?</label>
+        <select id="role" name="role">
+          <option>Volunteer locally</option>
+          <option>Contribute code</option>
+          <option>Research & writing</option>
+          <option>Donate</option>
+          <option>Something else</option>
+        </select>
+
+        <label for="message">Anything we should know?</label>
+        <textarea id="message" name="message" placeholder="Lorem ipsum dolor sit amet..."></textarea>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">
+            <img src="logo.png" alt="Civic Guild logo">
+            <strong>Civic Guild</strong>
+          </div>
+          <p style="opacity: 0.85;">A nonpartisan coalition building open technology to defend democratic institutions in the United States.</p>
+        </div>
+        <div>
+          <h4>Site</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="get-involved.html">Get Involved</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Connect</h4>
+          <ul>
+            <li><a href="#">Newsletter</a></li>
+            <li><a href="#">GitHub</a></li>
+            <li><a href="#">Mastodon</a></li>
+            <li><a href="#">Press Inquiries</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; 2026 Civic Guild. Lorem ipsum dolor sit amet.
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
