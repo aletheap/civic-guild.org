@@ -76,7 +76,6 @@ header {
 .brand img {
   width: 44px;
   height: 44px;
-  border-radius: 50%;
 }
 
 nav ul {
@@ -427,7 +426,6 @@ footer a:hover {
 .footer-brand img {
   width: 40px;
   height: 40px;
-  border-radius: 50%;
 }
 
 .footer-brand strong {
